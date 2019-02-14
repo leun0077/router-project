@@ -1,10 +1,10 @@
 <template>
   <div id="SideNavigation">
-    <el-menu default-active="2" class="side-nav-bar">
-      <el-menu-item index="2">
+    <el-menu default-active="activeLink" class="side-nav-bar" :router="true">
+      <el-menu-item index="/dashboard">
         <span>Dashboard</span>
       </el-menu-item>
-      <el-menu-item index="3">
+      <el-menu-item index="/list">
         <span>List</span>
       </el-menu-item>
     </el-menu>
