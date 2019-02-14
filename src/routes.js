@@ -1,5 +1,13 @@
 import VueRouter from 'vue-router'
-
-const router = new VueRouter({})
+import DashboardPage from './components/pages/dashboard-page/dashboard-page.component.vue'
+import ListPage from './components/pages/list-page/list-page.component.vue'
+const router = new VueRouter(
+  {
+    path: '/',
+    redirect: '/dashboard'
+  },
+  { path: '/dashboard', component: DashboardPage },
+  { path: '/list', component: ListPage }
+)
 
 export default router
