@@ -2,7 +2,7 @@
   <div id="app">
     <el-container>
       <el-aside width="200px">
-        <side-navigation></side-navigation>
+        <side-navigation/>
       </el-aside>
       <el-main>
         <router-view></router-view>
@@ -11,8 +11,5 @@
   </div>
 </template>
 
-<script src="./app.component.js">
-</script>
-
-<style src="./app.component.css">
-</style>
+<script src="./app.component.js"></script>
+<style src="./app.component.css"></style>

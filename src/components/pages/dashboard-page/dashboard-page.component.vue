@@ -1,5 +1,5 @@
 <template>
-  <div id="DashboardPage">Dashboard BOOM</div>
+  <div id="dashboardPage">Dashboard BOOM</div>
 </template>
 
 <script src="./dashboard-page.component.js">

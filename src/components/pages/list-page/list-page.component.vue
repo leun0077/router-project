@@ -1,5 +1,5 @@
 <template>
-  <div id="ListPage">Listpage BOOM</div>
+  <div id="listPage">Listpage BOOM</div>
 </template>
 
 <script src="./list-page.component.js">
